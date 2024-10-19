@@ -1,0 +1,16 @@
+{
+  "name": "ponderati",
+  "version": "1.0.0",
+  "description": "<h1>Ponderati</h1>\r Propuesta:Nombres, Icono, Slogan.-> Tareas </br>",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
