@@ -1,24 +1,19 @@
-//Important
 
-//This server using http
-
-// Importing required modules using ES module syntax
+//Express is to make the server
 import express from 'express';
+//Morgan is used to follow the request
+import morgan  from 'morgan';
+import authRoutes from './routes/auth.routes.js'
+
 
 // Running express and saving in app
 const app = express();
-//Port 3000
-const port = 3000;
-
-//Routes and what you see in the application.
-//Asnwer to customer
-app.get('/',(req,res)=>{
-    res.send("Hello world!")
-})
-
-// Starting the server
-app.listen(port,() => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
+//Use morgan to the request 
+app.use(morgan('dev'));
+app.use(express.json());
+//Execute the routes (Comment and delete)
+app.use("/api",authRoutes);
   
+
+export default app;
 
