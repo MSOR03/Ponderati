@@ -14,6 +14,28 @@ Propuesta:Nombres, Icono, Slogan.-> Tareas </br>
   <li>Server: Node.js with Express</li>
 </ul>
 
+<h2>Homework1</h2><br>
+Crear un CRUD sencillo para entender el funcionamiento basico de Node.js y MongoDB<BR>
+
+<table>
+  <tr>
+  <td>Identificacion</td>
+  <td>Requerimiento </td>
+  <td>Descripcion</td> 
+  </tr>
+
+  <tr>
+  <td>1</td>
+  <td>Crear un comentario y guardarlo en la base</td>
+  <td>Agregar:Comentario,Id</td> 
+  </tr>
+
+  <tr>
+  <td>2</td>
+  <td>Eliminar un comentario de la base de datos</td>
+  <td>Eliminar:Id</td> 
+  </tr>
+</table>
 
 <h2>Requisitso Funcionales:</h2>
 <ul>
@@ -22,7 +44,6 @@ Propuesta:Nombres, Icono, Slogan.-> Tareas </br>
   </li>
 </ul>
 
-Mañana ver que arquitectura usar, gama de colores, pensar en el diseño.
 
 
 
